@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,400;1,100&family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Spectral&display=swap');
+svg {
+    display: none;
+}
+nav {
+    font-family: Roboto,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #ffc017;
+    border-bottom: 2px solid black;
+    align-items: center; 
+    font-size: 0.8em;
+}
+nav img {
+    width: 36%
+}
+nav a {
+    text-decoration: none;
+    color: #191919;
+}
+ #last{
+    position: relative;
+    right: 9%;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 0.9em;
+}
+header {
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    padding-left: 1em;
+}
+h1 {
+    font-family: Spectral, serif;
+    font-size: 3.3em;
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+}
+#para {
+    font-family: Roboto, sans-serif;
+    padding-bottom: 2em;
+}
+header div {
+    width: 32%;
+    background-color: black;
+    border-radius: 25px;
+    padding: 0.5em;
+    text-align: center;
+    margin-bottom: 5em;
+    font-family: Roboto, sans-serif;
+
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    padding: 1em;
+    font-size: 0.7em;
+    border-bottom: 1px solid rgb(215, 213, 213);
+}
+#heading {
+    display: flex;
+    align-items: center
+}
+#heading img {
+    padding-right: 1em;
+    width: 25px;
+}
+h2 {
+    font-family: roboto, sans-serif;
+    font-weight: bolder;
+}
+.all {
+    display: flex;
+}
+.numero {
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    padding-right: 1em;
+    opacity: 0.2;
+    font-weight: 600;
+}
+.all img {
+    border-radius: 30px;
+    width: 18px;
+}
+.par{
+    font-size: 0.9em;
+    display: inline;
+    vertical-align: super;
+    font-weight: bold;
+}
+.space{
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.space1 {
+    padding-top: 0.5em;
+    font-weight: bold;
+}
+.font{
+    font-family: roboto,san sans-serif;
+    padding-top: 0.2em;
+}
+.all-section{
+    margin-bottom: 2em;
+}
+h3 {
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+}
+footer {
+    padding: 2em;
+    font-size: 0.7em;
+    padding-left: 1em;
+}
+footer p {
+    border: 1px solid rgb(208, 204, 204);
+    width: 20%;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0.3em;
+}
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.write{
+    flex-basis: 10%;
+}
+hr {
+    color: rgb(215, 213, 213);
+    position: relative;
+    right: 2%;
+    width: 95%;
+}
