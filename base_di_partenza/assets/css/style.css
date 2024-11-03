@@ -141,6 +141,8 @@ footer .content {
     flex-basis: 10%;
 }
 hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
     color: rgb(215, 213, 213);
     position: relative;
     right: 2%;
