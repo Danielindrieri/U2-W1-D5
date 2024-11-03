@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,400;1,100&family=Spectral&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Spectral&display=swap');
-svg {
+
+svg,.hide,.nascondino,#nascondino{
     display: none;
 }
+
 nav {
     font-family: Roboto,sans-serif;
     display: flex;
@@ -291,3 +293,104 @@ footer section p {
  footer section{
     opacity: 0.5;
  }
+ @media screen and (min-width:700px) {
+    .medium {
+        display: inline-block;
+    height: 63%;
+    position: absolute;
+    top: 1%;
+    left: 57%;
+    }
+.hide{
+    display: inline-block;
+}
+nav img {
+    width: 21%;
+    margin-left: 2em
+}
+.primo{
+    display: flex;
+    justify-content: space-between;
+    width: 41%;
+}
+#last{
+     right: 5%;
+ padding: 0.7em 1em;
+}
+h1{
+    font-size: 4.3em;
+}
+#para{
+    font-size: 1.3em;
+}
+header div {
+    width: 25%
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.all-section,.all{ 
+    flex: 1 1 calc(50% - 1em);
+    box-sizing: border-box;
+    max-width: calc(70% - 1em)
+}
+#heading {
+    margin-top: 2em;
+    width: 100%;
+}
+h3{
+    padding-top: 1.5em;
+    font-size: 1.1em;
+}
+.content,#first{
+    width: 85%;
+    font-size: 1.1em;
+}
+.nascondino,#nascondino{
+    display: inline;
+}
+.visible,#visible{
+    display: none;
+}
+footer span {
+    font-size: 1.1em
+}
+#book2,.book-maker,#mark,.book{
+    position: absolute;
+    right: 45%;
+    width: 3%;
+}
+.lavagna,.move {
+position: absolute;
+left: 29%;
+}
+
+ #paesaggio,#vignetta,#Taylor{
+    position: absolute;
+left: 29%;
+ }
+ .move {
+    top: 110em;
+ }
+ #taylor{
+    top: 124em;
+ }
+ #paesaggio img {
+    bottom: -1em;
+ }
+.lavagna img {
+    bottom: 0em;
+    top: -9em;
+}
+header,footer,main,footer{
+    padding-left: 2em;
+}
+hr {
+    margin-bottom: 1em;
+}
+.second{
+    font-size: 1.1em;
+}
+}
