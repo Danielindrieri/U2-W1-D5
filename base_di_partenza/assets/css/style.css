@@ -271,13 +271,13 @@ footer section p {
     width: 17px;
     border-radius: 5px;
 }
-#lavagna img{
+.lavagna img{
     position: absolute;
     bottom: 0.8em;
     left: 140%;
     width: 100%; 
 }
-#lavagna{
+.lavagna{
     position: relative;
     width: 160px;
     height: auto
