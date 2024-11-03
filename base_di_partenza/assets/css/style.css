@@ -9,7 +9,8 @@ svg,
   display: none;
 }
 
-nav {
+nav { position: sticky;
+    top: 0;
   font-family: Roboto, sans-serif;
   display: flex;
   justify-content: space-between;
@@ -25,6 +26,13 @@ nav img {
 nav a {
   text-decoration: none;
   color: #191919;
+}
+nav.scrolly{
+    background-color: #eae6e6;
+}
+nav.scrolly #last {
+    background-color: green;
+    color: black;
 }
 #last {
   position: relative;
