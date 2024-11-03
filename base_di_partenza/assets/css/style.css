@@ -285,3 +285,9 @@ footer section p {
  footer article{
     margin-bottom: 2.5em;
  }
+ footer span,.content,.space{
+    opacity: 0.5;
+ }
+ footer section{
+    opacity: 0.5;
+ }
